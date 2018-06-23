@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A33A04520AF66D800816A02 /* geometryHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A33A04420AF66D800816A02 /* geometryHelper.c */; };
 		1A866DED208669730066E763 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A866DEC208669730066E763 /* main.c */; };
+		1A866DF420869CB00066E763 /* distance.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A866DF320869CAF0066E763 /* distance.c */; };
+		1A866DF8208C1FA00066E763 /* vectors.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A866DF7208C1FA00066E763 /* vectors.c */; };
+		1A866DFC2091006B0066E763 /* pkmathutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A866DFB2091006B0066E763 /* pkmathutil.c */; };
+		1A8AF60620D04BC200B0DF26 /* fileIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AF60520D04BC200B0DF26 /* fileIO.c */; };
+		1AD5A73E20A34CA10058EEB4 /* animation.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5A73D20A34CA10058EEB4 /* animation.c */; };
+		1AD5A74120A7911B0058EEB4 /* lights.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5A74020A7911A0058EEB4 /* lights.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A33A04320AF66D800816A02 /* geometryHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geometryHelper.h; sourceTree = "<group>"; };
+		1A33A04420AF66D800816A02 /* geometryHelper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geometryHelper.c; sourceTree = "<group>"; };
 		1A866DE9208669730066E763 /* PokeyRenderEngine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokeyRenderEngine; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A866DEC208669730066E763 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1A866DF320869CAF0066E763 /* distance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = distance.c; sourceTree = "<group>"; };
+		1A866DF52086A1100066E763 /* distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = distance.h; sourceTree = "<group>"; };
+		1A866DF6208C1FA00066E763 /* vectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vectors.h; sourceTree = "<group>"; };
+		1A866DF7208C1FA00066E763 /* vectors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vectors.c; sourceTree = "<group>"; };
+		1A866DF92090F1F00066E763 /* pkBoolean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkBoolean.h; sourceTree = "<group>"; };
+		1A866DFA2091006B0066E763 /* pkmathutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pkmathutil.h; sourceTree = "<group>"; };
+		1A866DFB2091006B0066E763 /* pkmathutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pkmathutil.c; sourceTree = "<group>"; };
+		1A8AF60420D04BC200B0DF26 /* fileIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileIO.h; sourceTree = "<group>"; };
+		1A8AF60520D04BC200B0DF26 /* fileIO.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fileIO.c; sourceTree = "<group>"; };
+		1AD5A73C20A34CA00058EEB4 /* animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animation.h; sourceTree = "<group>"; };
+		1AD5A73D20A34CA10058EEB4 /* animation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = animation.c; sourceTree = "<group>"; };
+		1AD5A73F20A7911A0058EEB4 /* lights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lights.h; sourceTree = "<group>"; };
+		1AD5A74020A7911A0058EEB4 /* lights.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lights.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,21 @@
 			isa = PBXGroup;
 			children = (
 				1A866DEC208669730066E763 /* main.c */,
+				1A866DF320869CAF0066E763 /* distance.c */,
+				1A866DF52086A1100066E763 /* distance.h */,
+				1A866DF6208C1FA00066E763 /* vectors.h */,
+				1A866DF7208C1FA00066E763 /* vectors.c */,
+				1A866DF92090F1F00066E763 /* pkBoolean.h */,
+				1A866DFA2091006B0066E763 /* pkmathutil.h */,
+				1A866DFB2091006B0066E763 /* pkmathutil.c */,
+				1AD5A73C20A34CA00058EEB4 /* animation.h */,
+				1AD5A73D20A34CA10058EEB4 /* animation.c */,
+				1AD5A73F20A7911A0058EEB4 /* lights.h */,
+				1AD5A74020A7911A0058EEB4 /* lights.c */,
+				1A33A04320AF66D800816A02 /* geometryHelper.h */,
+				1A33A04420AF66D800816A02 /* geometryHelper.c */,
+				1A8AF60420D04BC200B0DF26 /* fileIO.h */,
+				1A8AF60520D04BC200B0DF26 /* fileIO.c */,
 			);
 			path = PokeyRenderEngine;
 			sourceTree = "<group>";
@@ -118,7 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD5A74120A7911B0058EEB4 /* lights.c in Sources */,
+				1A8AF60620D04BC200B0DF26 /* fileIO.c in Sources */,
+				1A33A04520AF66D800816A02 /* geometryHelper.c in Sources */,
+				1A866DFC2091006B0066E763 /* pkmathutil.c in Sources */,
 				1A866DED208669730066E763 /* main.c in Sources */,
+				1A866DF8208C1FA00066E763 /* vectors.c in Sources */,
+				1A866DF420869CB00066E763 /* distance.c in Sources */,
+				1AD5A73E20A34CA10058EEB4 /* animation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
